@@ -1,0 +1,164 @@
+/*-----------------
+    RESET
+-----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------
+    TYPOGRAPHY
+-----------------*/
+
+html {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/*-----------------
+    HEADER
+-----------------*/
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.mynav {
+    width: 40px;
+    height: 40px;
+    padding: 15px 5px;
+}
+
+/*-----------------
+    MAIN
+-----------------*/
+
+main {
+    padding-bottom: 13%;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+#generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 30vh;
+}
+
+#generator form {
+    display: flex;
+    gap: 40px;
+}
+
+.data-input {
+    padding: 5px 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.327));
+    font-size: 16px;
+}
+
+.km span {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#calculate-btn {
+    padding-inline: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.price-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#result {
+    color: white;
+    text-decoration-line: underline;
+    font-size: 18px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*-----------------
+    FOOTER
+-----------------*/
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info {
+    padding: 35px;
+    color: white;
+}
+
+.social-icons{
+	padding: 35px;
+    text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
